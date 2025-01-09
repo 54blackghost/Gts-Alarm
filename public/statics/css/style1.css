@@ -1,0 +1,36 @@
+/********** Template CSS **********/
+:root {
+    --primary: #FFFF00;
+    --secondary:  blue;
+    --light: #FFFFFF;
+    --dark: #2B2825;
+}
+
+.font-secondary {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar{
+    background-color: #FFFF00;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Oswald', sans-serif;
+    padding: 30px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFF00;
+    transition: .5s;
+}
+
+.sticky-top.navbar-dark .navbar-nav .nav-link {
+    padding: 20px 15px;
+}
+
+
+
+
+
+
+
+
