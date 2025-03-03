@@ -18,7 +18,7 @@ import downloads from "../data/downloads";
                     <h3 class="text-2xl font-theme-heading font-medium text-center mt-6">{{ download.title }}</h3>
                     <p class="text-md font-theme-content text-theme-grayish-blue text-center mt-3">{{ download.subTitle }}</p>
                     <div class="my-7">
-                        <img class="w-full" src="/images/bg-dots.svg" alt="Dot Backaground" />
+                        <img class="w-full" src="#" alt="Dot Backaground" />
                     </div>
                     <div class="flex justify-center mb-8">
                         <LinkButton btn-type="primary" :link="download.link" class="text-sm">Add & Install Extension</LinkButton>
