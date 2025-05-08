@@ -6,26 +6,7 @@
         <div class="container mx-auto px-5">
             <div class="grid md:grid-cols-2">
                 <div class="flex flex-col md:flex-row md:space-x-12 items-center">
-                    <div class="mb-10 md:mb-0">
-                        <img src="/images/gts.jpg" alt="Site Logo" style="width: 80%; "/>
-                    </div>
-                    <ul class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-8 text-xs text-center md:text-left font-theme-heading">
-                        <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="/" v-smooth-scroll>Home</a>
-                        </li>
-                        <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="#services" v-smooth-scroll>Services</a>
-                        </li>
-                        <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="#about" v-smooth-scroll>About Us</a>
-                        </li>
-                        <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="#faq" v-smooth-scroll>FAQ</a>
-                        </li>
-                        <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="#nos-experts" v-smooth-scroll>Nos Experts</a>
-                        </li>
-                    </ul>
+                        <img src="/images/pied_page.png" alt="Site Logo"/>
                 </div>
                 <div class="md:place-self-end place-self-center mt-10 md:mt-0">
                     <ul class="flex space-x-8 items-center">
