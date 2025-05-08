@@ -2,7 +2,7 @@
 
 <template>
     <!-- Hero Section Start -->
-    <div class="container mx-auto px-5 overflow-x-hidden lg:overflow-x-visible">
+    <div class="container mx-auto px-5 overflow-x-hidden lg:overflow-x-visible" id="home" >
         <section class="grid grid-cols-none lg:grid-cols-2 pb-16 pt-8 items-center">
             <div class="lg:w-5/6 order-2 lg:order-none">
                 <h1 class="text-4xl xl:text-5xl font-bold font-theme-heading text-center lg:text-left">A Simple Bookmark Manager</h1>

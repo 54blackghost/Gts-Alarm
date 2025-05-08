@@ -10,57 +10,14 @@
 
 <template>
     <!-- Navbar Start -->
-    <div class="container mx-auto px-5">
-        <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-          <router-link class="nav-link" to="/">
-                  <img src="/images/gts.jpg" alt="GTS ALARM" >
-                </router-link>
-                 <!-- Menu Toggler -->
-                 <button @click="toggleMobileNav()" type="button" class="flex md:hidden focus:outline-none">
-                    <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-                        <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
-                    </svg>
-                </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <router-link class="nav-link" to="/">
-                  <font-awesome-icon icon="home" /> Home
-                </router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/about">
-                  <font-awesome-icon icon="user" /> About Us
-                </router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/services">
-                  <font-awesome-icon icon="tools" /> Services
-                </router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/blog">
-                  <font-awesome-icon icon="fag" /> FAQ
-                </router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/contact">
-                  <font-awesome-icon icon="envelope" />Subscribe
-                </router-link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    
         <header class="flex justify-between py-12 items-center">
             <div>
-                <a href="/"><img src="/images/gts.jpg" alt="Site Logo"></a>
+                <a href="/"><img src="/images/gts.jpg" alt="Site Logo" style="width: 80%; margin-left: 5%;"></a>
             </div>
             
-            <nav class="flex justify-end flex-col md:flex-row">
+            <nav class="flex justify-end flex-col md:flex-row"
+            style="margin-right: 15%;">
                 <!-- Menu Toggler -->
                 <button @click="toggleMobileNav()" type="button" class="flex md:hidden focus:outline-none">
                     <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
@@ -68,16 +25,16 @@
                     </svg>
                 </button>
 
-                <!-- Desktop Menu -->
+                <!--Desktop Menu -->
                 <ul class="space-x-10 font-theme-heading font-medium items-center hidden md:flex  flex-col space-y-7 md:space-y-0 md:flex-row">
                     <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="/" v-smooth-scroll>Home</a></li>
-                    <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="/service" v-smooth-scroll>Services</a></li>
                     <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="/about" v-smooth-scroll>About Us</a></li>
+                    <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="/service" v-smooth-scroll>Services</a></li>
                     <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="/faq" v-smooth-scroll>FAQ</a></li>
                     <li class="uppercase hover:text-theme-secondary transition duration-200"><a href="/subscribe" v-smooth-scroll>Subscribe</a></li>
                 </ul>
             </nav>
-        </header>
+        </header >
 
         <!-- Mobile Menu Start>
         <div v-show="mobileNav">
@@ -127,7 +84,5 @@
             </div>
         </div>
         < Mobile Menu End-->
-    </div>
-    <router-view/>
     <!-- Navbar End -->
 </template>
