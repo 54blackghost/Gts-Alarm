@@ -23,7 +23,7 @@
                             <a href="#faq" v-smooth-scroll>FAQ</a>
                         </li>
                         <li class="uppercase text-white hover:text-theme-secondary transition duration-200">
-                            <a href="#download-section" v-smooth-scroll>Download</a>
+                            <a href="#nos-experts" v-smooth-scroll>Nos Experts</a>
                         </li>
                     </ul>
                 </div>
